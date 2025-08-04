@@ -1,0 +1,194 @@
+* {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-bottom: solid black 0px;
+    padding: 10px;
+
+
+}
+
+.navbar__heading {
+    color: purple;
+}
+
+.navbar__searchbox {
+    display: flex;
+    align-items: center;
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 60%;
+    gap: 10px;
+}
+
+.navbar__searchbox input {
+    width: 100%;
+    border: none;
+    font-size: 16px;
+
+}
+
+.navbar__searchbox input:focus {
+    outline: none;
+}
+
+.navbar__cart {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 9px;
+    border: solid black 1px;
+}
+
+.categories p {
+
+    background-color: #9E38EC;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+.categories p:hover {
+    background-color: #9523ed;
+
+}
+
+/* Banner */
+.banner {
+    background-color: black;
+    color: white;
+    display: flex;
+
+    height: 400px;
+}
+
+.banner__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    gap: 10px;
+}
+
+.banner__button {
+    background-color: #7c1cd7;
+    padding: 15px;
+    width: 270px;
+
+
+}
+
+.banner__button:hover {
+    background-color: #892DE1;
+}
+
+/* Recommended list */
+.recommended {
+    margin: 20px;
+
+}
+
+.recommended-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+
+
+
+}
+
+.course-card {
+    flex-basis: 20%;
+    flex-grow: 1;
+
+
+
+}
+
+.course-card img {
+    width: 325px;
+    height: 200px;
+}
+
+/* Topics */
+.topics {
+    padding: 10px;
+}
+
+.topics__recommended {
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.topics__recommended p {
+    border: solid black 2px;
+    padding: 20px;
+    text-align: center;
+    flex-basis: 20%;
+    flex-grow: 1;
+
+}
+
+/* Popular section */
+.popular {
+    margin: 25px;
+}
+
+.popular__container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.footer__one {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+
+}
+
+.footer__one__s1 p,
+.footer__one__s2 p {
+    padding: 7px;
+}
+
+.footer__two {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
