@@ -27,7 +27,7 @@ Static layout – no JavaScript or responsiveness
 Clean and simple design for learning purposes
 
 💻 How to View
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://ayyappandeveloper.github.io/Udemy-clone-webpage/
 Open index.html in your browser.
 
 
