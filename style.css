@@ -119,6 +119,10 @@ body {
 
 }
 
+.menu-icon {
+    display: none;
+}
+
 /* Banner */
 .banner {
     background-color: black;
@@ -140,6 +144,7 @@ body {
     animation-fill-mode: forwards;
 }
 
+
 /* animation */
 @keyframes zoom {
     0% {
@@ -152,6 +157,7 @@ body {
         opacity: 1;
     }
 }
+
 
 .banner__button {
     background-color: #7c1cd7;
@@ -255,4 +261,40 @@ body {
     margin-left: 30px;
     align-items: center;
     justify-content: space-between;
+}
+
+/* Responsive */
+
+@media screen and (max-width:600px) {
+    body {
+        font-size: 10px;
+    }
+
+
+    .menu-icon {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .navbar__cart,
+    .navbar__searchbox,
+    .categories {
+        display: none;
+    }
+
+    .banner__image {
+        display: none;
+    }
+
+    .recommended,
+    .recommended-container,
+    .popular {
+        text-align: center;
+
+    }
+
+    .course-card {
+        margin: 10px;
+    }
+
 }
